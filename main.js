@@ -13,13 +13,15 @@ addbtn.addEventListener("click",function(){
         addbtn.innerHTML="Remove Friend"
         addbtn.style.backgroundColor="#dadada"
         frndstatus.innerHTML="Friend"
-        frndstatus.style.color="green"
+        frndstatus.style.color="#30ee0a"
+        addbtn.style.color="#42428f"
         addrmv=false
     }else{
         addbtn.innerHTML="Add Friend"
         addbtn.style.backgroundColor="#42428f"
         frndstatus.style.color="Red"
         frndstatus.innerHTML="Stranger"
+        addbtn.style.color="white"
         addrmv=true
     }
 })
